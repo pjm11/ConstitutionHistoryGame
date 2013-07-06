@@ -15,6 +15,7 @@ import android.util.Log;
 public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
 
     //static strings for player table
+
     public static final String DB_NAME = "ConstitutionGameDatabaseHelper.SQLite";//static variable definitions
     public static final int DB_VERSION = 1;
     public static String PLAYER_TABLE = "PlayerTable";
@@ -24,6 +25,9 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
     public static String EMAIL = "Email";
     public static String USERNAME = "User_Name";
     public static String PASSWORD = "Password";
+    public static String HIGH_SCORE = "High_Score";
+    public static String LOW_SCORE = "Low_Score";
+
     //static strings for game played table
     public static String GAME_PLAYED_TABLE = "GamePlayedTable";
     public static String GAME_DATE = "Game_Date";
@@ -32,21 +36,26 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
     public static String GAME_ID = "Game_ID";
     public static String GAME_SCORE = "Game_Score";
 
+    /**
+     *
+     * @param context
+     */
     public ConstitutionGameDatabaseHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
     }
 
-
-    @Override
-    public void onCreate(SQLiteDatabase constitutionGameDatabase) {//whats called when database helper is created
+     @Override
+      public void onCreate(SQLiteDatabase constitutionGameDatabase) {//whats called when database helper is created
         //sql statement below to  player table
         String sqlStatement = "CREATE TABLE " + PLAYER_TABLE + "("
-                + PLAYER_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL,"
-                + FIRST_NAME + " TEXT not null,"
-                + LAST_NAME + " TEXT not null,"
-                + EMAIL + " TEXT UNIQUE not null,"
-                + USERNAME + " TEXT UNIQUE not null,"
-                + PASSWORD + " TEXT not null "
+                + PLAYER_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL, "
+                + FIRST_NAME + " TEXT not null, "
+                + LAST_NAME + " TEXT not null, "
+                + EMAIL + " TEXT UNIQUE not null, "
+                + USERNAME + " TEXT UNIQUE not null, "
+                + PASSWORD + " TEXT not null, "
+                + HIGH_SCORE + " INTEGER NULL, "
+                + LOW_SCORE + " INTEGER NULL, "
                 + ");";
         //sql statement below to create game table
         String sqlStatement2 = "CREATE TABLE " + GAME_PLAYED_TABLE + "("
@@ -67,6 +76,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
 /* executing the sql statement */
 
         constitutionGameDatabase.execSQL(sqlStatement);
+        constitutionGameDatabase.execSQL(sqlStatement2);
 
     }
 
