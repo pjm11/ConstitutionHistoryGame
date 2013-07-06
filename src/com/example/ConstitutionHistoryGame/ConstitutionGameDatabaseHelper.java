@@ -14,16 +14,23 @@ import android.util.Log;
  */
 public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
 
+    //static strings for player table
     public static final String DB_NAME = "ConstitutionGameDatabaseHelper.SQLite";//static variable definitions
     public static final int DB_VERSION = 1;
     public static String PLAYER_TABLE = "PlayerTable";
-    public static String PLAYER_ID = "ID";
+    public static String PLAYER_ID = "Player_ID";
     public static String FIRST_NAME = "First_Name";
     public static String LAST_NAME = "Last_Name";
     public static String EMAIL = "Email";
     public static String USERNAME = "User_Name";
     public static String PASSWORD = "Password";
-
+    //static strings for game played table
+    public static String GAME_PLAYED_TABLE = "GamePlayedTable";
+    public static String GAME_DATE = "Game_Date";
+    public static String AMOUNT_OF_CORRECT_ANSWERS = "Correct_Answers";
+    public static String AMOUNT_OF_INCORRECT_ANSWERS = "Correct_Answers";
+    public static String GAME_ID = "Game_ID";
+    public static String GAME_SCORE = "Game_Score";
 
     public ConstitutionGameDatabaseHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
@@ -32,7 +39,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase constitutionGameDatabase) {//whats called when database helper is created
-        //sql statement below to create table
+        //sql statement below to  player table
         String sqlStatement = "CREATE TABLE " + PLAYER_TABLE + "("
                 + PLAYER_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL,"
                 + FIRST_NAME + " TEXT not null,"
@@ -40,6 +47,16 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
                 + EMAIL + " TEXT UNIQUE not null,"
                 + USERNAME + " TEXT UNIQUE not null,"
                 + PASSWORD + " TEXT not null "
+                + ");";
+        //sql statement below to create game table
+        String sqlStatement2 = "CREATE TABLE " + GAME_PLAYED_TABLE + "("
+                + GAME_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL,"
+                + PLAYER_ID + "INTEGER NOT NULL,"
+                + GAME_DATE + " DATE NOT NULL "
+                + AMOUNT_OF_CORRECT_ANSWERS + "INTEGER NOT NULL,"
+                + AMOUNT_OF_INCORRECT_ANSWERS + "INTEGER NOT NULL,"
+                + GAME_SCORE + " INTEGER NOT NULL,"
+                + " FOREIGN KEY " + PLAYER_ID + " REFERENCES " + PLAYER_TABLE
                 + ");";
 
         //loging in log cat
