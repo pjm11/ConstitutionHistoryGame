@@ -17,7 +17,7 @@ public class Player {
     private int highScore;
     private String email;
     private String userName;
-    private String passsword;
+    private String password;
     private int lowScore;
 
     //default constructor
@@ -42,7 +42,7 @@ public class Player {
         this.highScore = highScore;
         this.email = email;
         this.userName = userName;
-        this.passsword = passsword;
+        this.password = passsword;
         this.lowScore = lowScore;
     }
 
@@ -146,16 +146,16 @@ public class Player {
      *
      * @return
      */
-    public String getPasssword() {
-        return passsword;
+    public String getPassword() {
+        return password;
     }
 
     /**
      *
-     * @param passsword
+     * @param password
      */
-    public void setPasssword(String passsword) {
-        this.passsword = passsword;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     /**
