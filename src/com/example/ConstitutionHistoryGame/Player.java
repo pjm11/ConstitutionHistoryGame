@@ -32,17 +32,17 @@ public class Player {
      * @param highScore
      * @param email
      * @param userName
-     * @param passsword
+     * @param password
      * @param lowScore
      */
-    public Player(int player_id, String fName, String lName, int highScore, String email, String userName, String passsword, int lowScore) {
+    public Player(int player_id, String fName, String lName, int highScore, String email, String userName, String password, int lowScore) {
         this.player_id = player_id;
         this.fName = fName;
         this.lName = lName;
         this.highScore = highScore;
         this.email = email;
         this.userName = userName;
-        this.password = passsword;
+        this.password = password;
         this.lowScore = lowScore;
     }
 
