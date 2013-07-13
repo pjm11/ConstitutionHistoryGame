@@ -40,22 +40,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/ConstitutionHistoryGame/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/ConstitutionHistoryGame/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/ConstitutionGameDatabaseHelper.java" afterPath="$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/ConstitutionGameDatabaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/ConstitutionHistoryGame/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/example/ConstitutionHistoryGame/Manifest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/ConstitutionHistoryGame/R.java" afterPath="$PROJECT_DIR$/gen/com/example/ConstitutionHistoryGame/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/HomeScreenActivity.java" afterPath="$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/HomeScreenActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/homescreenlayout.xml" afterPath="$PROJECT_DIR$/res/layout/homescreenlayout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ConstitutionHistoryGame.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373726051216" ignored="false" />
+    <file path="/Dummy.txt" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373728948385" ignored="false" />
     <file path="/Player.java" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373416346856" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7536455644561368633tmp/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373726103587" ignored="false" />
-    <file path="/fragment.java" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373726497290" ignored="false" />
+    <file path="/fragment.java" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373728187367" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2498476448948118533tmp/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373726204800" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3865605982684076875tmp/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373726462433" ignored="false" />
     <file path="/ConstitutionGameDatabaseHelper.java" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373727435459" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy657465155609561760tmp/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373727929362" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373727986261" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8451021170039400310tmp/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373728006440" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/ConstitutionHistoryGame/BuildConfig.java" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373728006690" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1919301495450394013tmp/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373728070863" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7645387259030012387tmp/AndroidManifest.xml" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373728360366" ignored="false" />
+    <file path="/HomeScreenActivity.java" changelist="c9d2a941-3de1-41d8-a3a8-9d225d9bd853" time="1373728449615" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +77,12 @@
     <option name="USE_COMPILE_SERVER" value="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\aaron\Documents\GitHub\ConstitutionHistoryGame\ConstitutionHistoryGame" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -115,6 +119,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -126,29 +131,50 @@
     <leaf>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstitutionGameDatabaseHelper.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ConstitutionGameDatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/ConstitutionGameDatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="106" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.640625">
+            <state line="67" column="106" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="homescreenlayout.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/homescreenlayout.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeScreenActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/HomeScreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="78" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+            <state line="15" column="48" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SplashScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/SplashScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,10 +205,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/Player.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/ConstitutionGameDatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/homescreenlayout.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/HomeScreenActivity.java" />
       </list>
     </option>
   </component>
@@ -230,7 +258,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,8 +340,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConstitutionHistoryGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConstitutionHistoryGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,12 +375,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -546,45 +588,49 @@
       <created>1373416378431</created>
       <updated>1373416378431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed teh SQLite database tables as they were causing the application to force close">
+      <created>1373727911374</created>
+      <updated>1373727911374</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67112595" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.4503902" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.67112595" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Repo Search" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Repo Search" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.178762" sideWeight="0.2865106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.178762" sideWeight="0.4136009" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.178762" sideWeight="0.38350055" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32552955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67112595" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.67001116" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.178762" sideWeight="0.2865106" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.178762" sideWeight="0.2865106" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295207" sideWeight="0.66972476" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295207" sideWeight="0.66972476" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.178762" sideWeight="0.67112595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32552955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.67001116" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -630,7 +676,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed some things Bobby" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed teh SQLite database tables as they were causing the application to force close" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -649,6 +695,7 @@
     <MESSAGE value="added some javadoc and expanded on player class" />
     <MESSAGE value="fixed some errors" />
     <MESSAGE value="changed some things Bobby" />
+    <MESSAGE value="Fixed teh SQLite database tables as they were causing the application to force close" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -669,11 +716,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ant.properties">
@@ -698,20 +745,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.21469575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/HomeScreenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="267" selection-end="267" vertical-scroll-proportion="0.21469575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="22" selection-start="709" selection-end="709" vertical-scroll-proportion="0.019473081">
@@ -719,50 +752,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/homescreenlayout.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="78" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/android-sdks/platforms/android-17/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.8229167">
-          <folding />
-        </state>
+        <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.8229167" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/android-sdks/platforms/android-17/android.jar!/android/content/ContextWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="0" selection-start="10682" selection-end="10682" vertical-scroll-proportion="0.8188277">
+        <state line="182" column="0" selection-start="10682" selection-end="10682" vertical-scroll-proportion="0.8188277" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/HomeScreenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="48" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="537" selection-end="726" vertical-scroll-proportion="0.35416666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/ConstitutionHistoryGame/ConstitutionGameDatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="106" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.640625">
+        <state line="67" column="106" selection-start="2927" selection-end="2927" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/homescreenlayout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

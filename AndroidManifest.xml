@@ -12,6 +12,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".HomeScreenActivity" android:label="Home"/>
+        <activity android:name=".HomeScreenActivity" android:label="Home" android:theme="@android:style/Theme.Holo"/>
     </application>
 </manifest>
