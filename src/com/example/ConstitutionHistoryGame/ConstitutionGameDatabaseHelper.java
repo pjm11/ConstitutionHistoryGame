@@ -32,7 +32,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
     public static String GAME_PLAYED_TABLE = "GamePlayedTable";
     public static String GAME_DATE = "Game_Date";
     public static String AMOUNT_OF_CORRECT_ANSWERS = "Correct_Answers";
-    public static String AMOUNT_OF_INCORRECT_ANSWERS = "Correct_Answers";
+    public static String AMOUNT_OF_INCORRECT_ANSWERS = "Incorrect_Answers";
     public static String GAME_ID = "Game_ID";
     public static String GAME_SCORE = "Game_Score";
 
@@ -47,7 +47,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
      @Override
       public void onCreate(SQLiteDatabase constitutionGameDatabase) {//whats called when database helper is created
         //sql statement below to  player table
-        String sqlStatement = "CREATE TABLE " + PLAYER_TABLE + "("
+        String sqlStatement = "CREATE TABLE " + PLAYER_TABLE + "( "
                 + PLAYER_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL, "
                 + FIRST_NAME + " TEXT not null, "
                 + LAST_NAME + " TEXT not null, "
@@ -55,17 +55,17 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
                 + USERNAME + " TEXT UNIQUE not null, "
                 + PASSWORD + " TEXT not null, "
                 + HIGH_SCORE + " INTEGER NULL, "
-                + LOW_SCORE + " INTEGER NULL, "
+                + LOW_SCORE + " INTEGER NULL "
                 + ");";
         //sql statement below to create game table
-        String sqlStatement2 = "CREATE TABLE " + GAME_PLAYED_TABLE + "("
+        String sqlStatement2 = "CREATE TABLE " + GAME_PLAYED_TABLE + "( "
                 + GAME_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL,"
-                + PLAYER_ID + "INTEGER NOT NULL,"
-                + GAME_DATE + " DATE NOT NULL "
-                + AMOUNT_OF_CORRECT_ANSWERS + "INTEGER NOT NULL,"
-                + AMOUNT_OF_INCORRECT_ANSWERS + "INTEGER NOT NULL,"
+                + PLAYER_ID + " INTEGER NOT NULL,"
+                + GAME_DATE + " DATE NOT NULL, "
+                + AMOUNT_OF_CORRECT_ANSWERS + " INTEGER NOT NULL,"
+                + AMOUNT_OF_INCORRECT_ANSWERS + " INTEGER NOT NULL,"
                 + GAME_SCORE + " INTEGER NOT NULL,"
-                + " FOREIGN KEY " + PLAYER_ID + " REFERENCES " + PLAYER_TABLE
+                + " FOREIGN KEY (" + PLAYER_ID + ") REFERENCES " + PLAYER_TABLE + " ( " + PLAYER_ID + " ) "
                 + ");";
 
         //loging in log cat
