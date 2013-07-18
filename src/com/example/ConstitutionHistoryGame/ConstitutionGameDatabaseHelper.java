@@ -31,11 +31,18 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
     //static strings for game played table
     public static String GAME_PLAYED_TABLE = "GamePlayedTable";
     public static String GAME_DATE = "Game_Date";
-    public static String AMOUNT_OF_CORRECT_ANSWERS = "Correct_Answers";
-    public static String AMOUNT_OF_INCORRECT_ANSWERS = "Incorrect_Answers";
+    public static String AMOUNT_OF_CORRECT_ANSWERS = "Amount_Of_Correct_Answers";
+    public static String AMOUNT_OF_INCORRECT_ANSWERS = "Amount_Of_Incorrect_Answers";
     public static String GAME_ID = "Game_ID";
     public static String GAME_SCORE = "Game_Score";
 
+    //static strings for questions table
+    public static String GAME_QUESTIONS_TABLE = "GameQuestionsTable";
+    public static String QUESTION_ID = "Question_ID";
+    public static String CORRECT_ANSWER = "Correct_Answer";
+    public static String INCORRECT_ANSWER_ONE = "Incorrect_Answer_One";
+    public static String INCORRECT_ANSWER_two = "Incorrect_Answer_two";
+    public static String INCORRECT_ANSWER_three = "Incorrect_Answer_three";
     /**
      *
      * @param context
@@ -68,6 +75,14 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
                 + " FOREIGN KEY (" + PLAYER_ID + ") REFERENCES " + PLAYER_TABLE + " ( " + PLAYER_ID + " ) "
                 + ");";
 
+         String sqlStatement3 = "CREATE TABLE " + GAME_QUESTIONS_TABLE + "( "
+                 + QUESTION_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL, "
+                 + CORRECT_ANSWER + " TEXT not null, "
+                 + INCORRECT_ANSWER_ONE + " TEXT not null, "
+                 + INCORRECT_ANSWER_two + " TEXT not null, "
+                 + INCORRECT_ANSWER_three + " TEXT not null "
+                 + ");";
+
         //loging in log cat
 
         Log.d("creating constitution database", sqlStatement);
@@ -77,7 +92,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
 
         constitutionGameDatabase.execSQL(sqlStatement);
         constitutionGameDatabase.execSQL(sqlStatement2);
-
+        constitutionGameDatabase.execSQL(sqlStatement3);
     }
 
     @Override

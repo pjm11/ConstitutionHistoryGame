@@ -41,6 +41,9 @@ public class HomeScreenActivity extends Activity {
                                 HomeScreenActivity.this,
                                GameActivity.class);
                        startActivity(i);
+                       break;
+                   default:
+
                }
         }
     };
