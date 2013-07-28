@@ -64,6 +64,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
                 + HIGH_SCORE + " INTEGER NULL, "
                 + LOW_SCORE + " INTEGER NULL "
                 + ");";
+
         //sql statement below to create game table
         String sqlStatement2 = "CREATE TABLE " + GAME_PLAYED_TABLE + "( "
                 + GAME_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL,"
@@ -72,9 +73,10 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
                 + AMOUNT_OF_CORRECT_ANSWERS + " INTEGER NOT NULL,"
                 + AMOUNT_OF_INCORRECT_ANSWERS + " INTEGER NOT NULL,"
                 + GAME_SCORE + " INTEGER NOT NULL,"
-                + " FOREIGN KEY (" + PLAYER_ID + ") REFERENCES " + PLAYER_TABLE + " ( " + PLAYER_ID + " ) "
+                + " FOREIGN KEY (" + PLAYER_ID + ") REFERENCES " + PLAYER_TABLE + " ( " + PLAYER_ID + " ) ON DELETE CASCADE "
                 + ");";
 
+         //sql statements to create questions table
          String sqlStatement3 = "CREATE TABLE " + GAME_QUESTIONS_TABLE + "( "
                  + QUESTION_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL, "
                  + CORRECT_ANSWER + " TEXT not null, "
@@ -84,7 +86,6 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
                  + ");";
 
         //loging in log cat
-
         Log.d("creating constitution database", sqlStatement);
 
 
@@ -99,4 +100,6 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase arg0, int arg1, int arg2) {
         // TODO Auto-generated method stub
     }
+
+
 }

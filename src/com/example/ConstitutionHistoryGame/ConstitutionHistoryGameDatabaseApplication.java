@@ -29,6 +29,7 @@ public class ConstitutionHistoryGameDatabaseApplication extends Application {
 
           ConstitutionGameDatabaseHelper dbHelper = new ConstitutionGameDatabaseHelper(this);
            constitutionGameDatabase =  dbHelper.getWritableDatabase();
+            constitutionGameDatabase.execSQL("PRAGMA foreign_keys=ON;");
 
     }
 
