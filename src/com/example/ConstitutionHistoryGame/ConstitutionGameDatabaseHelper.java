@@ -20,11 +20,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
     public static final int DB_VERSION = 1;
     public static String PLAYER_TABLE = "PlayerTable";
     public static String PLAYER_ID = "Player_ID";
-    public static String FIRST_NAME = "First_Name";
-    public static String LAST_NAME = "Last_Name";
-    public static String EMAIL = "Email";
     public static String USERNAME = "User_Name";
-    public static String PASSWORD = "Password";
     public static String HIGH_SCORE = "High_Score";
     public static String LOW_SCORE = "Low_Score";
 
@@ -56,11 +52,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
         //sql statement below to  player table
         String sqlStatement = "CREATE TABLE " + PLAYER_TABLE + "( "
                 + PLAYER_ID + " INTEGER PRIMARY KEY autoincrement NOT NULL, "
-                + FIRST_NAME + " TEXT not null, "
-                + LAST_NAME + " TEXT not null, "
-                + EMAIL + " TEXT UNIQUE not null, "
                 + USERNAME + " TEXT UNIQUE not null, "
-                + PASSWORD + " TEXT not null, "
                 + HIGH_SCORE + " INTEGER NULL, "
                 + LOW_SCORE + " INTEGER NULL "
                 + ");";
@@ -94,6 +86,7 @@ public class ConstitutionGameDatabaseHelper extends SQLiteOpenHelper {
         constitutionGameDatabase.execSQL(sqlStatement);
         constitutionGameDatabase.execSQL(sqlStatement2);
         constitutionGameDatabase.execSQL(sqlStatement3);
+
     }
 
     @Override

@@ -20,7 +20,7 @@ import static com.example.ConstitutionHistoryGame.ConstitutionGameDatabaseHelper
 public class ConstitutionHistoryGameDatabaseApplication extends Application {
 
     //creating list to store players scores
-   private List<Player> allScores;
+   private int[] allScores;
    private SQLiteDatabase constitutionGameDatabase;
 
     @Override
@@ -32,6 +32,8 @@ public class ConstitutionHistoryGameDatabaseApplication extends Application {
             constitutionGameDatabase.execSQL("PRAGMA foreign_keys=ON;");
 
     }
+
+
 
     @Override
     public void onTerminate() {
