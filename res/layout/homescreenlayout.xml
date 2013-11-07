@@ -3,7 +3,20 @@
 <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
-        android:background="@android:color/darker_gray">
+        android:focusable="true"
+        >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:id="@+id/linearLayout"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/usa">
+
+    </LinearLayout>
+
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -13,32 +26,21 @@
             android:background="@android:color/holo_blue_dark"
             android:clickable="true"
             android:textColor="@android:color/holo_red_dark"
+            android:layout_marginBottom="17dp"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="12dp"/>
+            android:layout_alignParentLeft="true"/>
 
-    <LinearLayout
+    <Button
+            style="@android:style/Holo.ButtonBar"
             android:layout_width="fill_parent"
-            android:layout_height="45dp"
-            android:id="@+id/linearLayout"
-            android:orientation="horizontal">
-
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Medium Text"
-                android:id="@+id/textView"
-                />
-    </LinearLayout>
-
-    <ImageView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView"
-            android:layout_marginTop="71dp"
-            android:src="@drawable/androidguitar"
-            android:layout_below="@+id/linearLayout"
-            android:layout_centerHorizontal="true"/>
+            android:text="Review Scores"
+            android:id="@+id/btnReviewScores"
+            android:background="@android:color/holo_blue_dark"
+            android:clickable="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_above="@+id/btnPlayGame"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="13dp"/>
 
 </RelativeLayout>
